@@ -184,7 +184,7 @@ begin
   FTreeDir.Items.BeginUpdate;
   FTreeDir.Items.Clear;
   //FTreeDir.Perform(TVM_SETITEMHEIGHT, 50, 0);
-  SendMessage(FTreeDir.Handle,TV_FIRST+27,22,0); // リスト行の高さを指定
+  //SendMessage(FTreeDir.Handle,TV_FIRST+27,22,0); // リスト行の高さを指定
   pList := GetFolderDesktop();
   d := TFolderSelectItem.Create;
   try
